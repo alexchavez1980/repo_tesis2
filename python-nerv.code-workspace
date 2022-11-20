@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "/Users/rramele/work/python-toolbox"
+		},
+		{
+			"path": "/Users/rramele/work/python-mindwave"
+		},
+		{
+			"path": "/Users/rramele/work/python-sumo"
+		},
+		{
+			"path": "/Users/rramele/work/python-scientific"
+		}
+	],
+	"settings": {
+		"python.pythonPath": "/anaconda2/envs/mne3/bin/python",
+		"python.dataScience.jupyterServerURI": "local"
+	}
+}
