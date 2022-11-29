@@ -1,6 +1,3 @@
-#-----------------------------------------------------------------------
-# Librerías
-#-----------------------------------------------------------------------
 import mne                                                              # pip install mne
 mne.set_log_level('WARNING')                                            # Luego averiguar ¿para qué?
 import scipy.io
@@ -9,6 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sb                                                    # Por ahora lo voy a usar para cambiar los nombres de las columnas
 color = ['green', 'blue','red','cyan', 'magenta', 'yellow','k','w']     # Paleta de colores para diferenciar las ondas
+
 #-----------------------------------------------------------------------
 # Mis funciones
 #-----------------------------------------------------------------------
@@ -34,8 +32,8 @@ def grafico(data_frame, titulo, xlabel, ylabel, dir_savefig):
     plt.show()
     return()   
 
-# Función para graficar los ocho canales del ERPTemplate.mat que a su vez se le extrae el mat['routput'].
-def grafic_routput(data_frame, titulo, xlabel, ylabel, dir_savefig):     
+# Función para graficar los ocho canales.
+def grafic_8ch(data_frame, titulo, xlabel, ylabel, dir_savefig):     
     plt.figure(figsize=(30,8))                                          
     axes = plt.gca()                                                    
     for i in range(0,7):
@@ -53,7 +51,6 @@ def grafic_routput(data_frame, titulo, xlabel, ylabel, dir_savefig):
     return()      
 
 # Función para graficar UN canal del p300-subject-25.mat, que a su vez se le extrae el p300subject25['data'][0][0][0].
-# POR AHORA NO SIRVE.
 def grafic_signal(data_frame, titulo, xlabel, ylabel, dir_savefig, canal):          
     plt.figure(figsize=(30,8))                                          
     axes = plt.gca()
