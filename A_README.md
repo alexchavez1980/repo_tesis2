@@ -1,8 +1,8 @@
 
-# Seminario de Tópicos Avanzados en Datos Complejos
+# ES HORA DE IR ARMADO EL README
 ### Especialización en ciencia de datos ITBA  
-  
-  
+
+#### 13/Dic/2022/19h: Avancé con t_stim & t_type y algunos campos mas.
   
 Docentes:   
 Pedro Ferrari | pedro@muttdata.ai  
