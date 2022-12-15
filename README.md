@@ -62,10 +62,10 @@ Producido por el CiC, Universidad ITBA, Buenos Aires, Argentina
 
 
 
-  **==================================================================**
+  **===========================================**  
   *De acá en adelante es guia*  
-  **==================================================================**
-  
+  **===========================================**  
+    
 Docentes:   
 Pedro Ferrari | pedro@muttdata.ai  
 Juan Martín Pampliega | jpamplie@itba.edu.ar  
