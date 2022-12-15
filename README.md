@@ -1,8 +1,9 @@
 
 # TRABAJO FINAL INTEGRADOR
+## Análisis exploratorio de datos.
 ### Especialización en ciencia de datos ITBA  
   
-##### *(15/Dic/2022/10h)*  
+##### *(15/Dic/2022/15h)*  
 
 
 
