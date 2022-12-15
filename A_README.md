@@ -9,8 +9,8 @@
   
   
 ### Los datasets.  
-Son tres grupos de datasets: el ERPTemplate.mat. , el grupo de los 8 archivos que conforman el P300-Dataset. y  
-el grupo de los p300-subject-XX.mat.  
+Son tres grupos de datasets: el *ERPTemplate.mat.*, el grupo de los 8 archivos que conforman el *P300-Dataset* y  
+el grupo de los *p300-subject-XX.mat*.  
   
 Cada uno de ellos contiene uno o varios archivos .mat.  
 [Se encuentran en la carpeta *dataset*](dataset/)  
