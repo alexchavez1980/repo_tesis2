@@ -1,6 +1,6 @@
 
 # TRABAJO FINAL INTEGRADOR
-## Especialización en ciencia de datos ITBA  
+### Especialización en ciencia de datos ITBA  
   
   
   
@@ -8,19 +8,18 @@
   
   
   
-### Los datasets.  
+## Los datasets.  
 Son tres grupos de datasets:  
     El *ERPTemplate.mat.*, el grupo de los 8 archivos que conforman el *P300-Dataset* y el grupo de los *p300-subject-XX.mat*.  
   
-Cada uno de ellos contiene uno o varios archivos .mat.  
-[Se encuentran en la carpeta *dataset*](dataset/)  
+Cada uno de ellos contiene uno o varios archivos .mat. Por practicidad [se encuentran en la carpeta *dataset*](dataset/)  
   
-1. El ERPTemplate.mat.
+### 1.El ERPTemplate.mat.
 BLA BLA BLA    
   
   
   
-2. El grupo de los 8 archivos que conforman el P300-Dataset.  
+### 2. El grupo de los 8 archivos que conforman el P300-Dataset.  
 Dataset obtenido de las P300 de ocho sujetos sanos.  
 La estructura se compone de la siguiente manera:  
   
@@ -52,7 +51,7 @@ Producido por el CiC, Universidad ITBA, Buenos Aires, Argentina
 
   
   
-3. El grupo de los p300-subject-XX.mat.  
+### 3. El grupo de los p300-subject-XX.mat.  
   
   
   
