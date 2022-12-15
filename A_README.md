@@ -1,9 +1,64 @@
 
-# ES HORA DE IR ARMADO EL README
-### Especialización en ciencia de datos ITBA  
+# TRABAJO FINAL INTEGRADOR
+## Especialización en ciencia de datos ITBA  
 
-#### 13/Dic/2022/19h: Avancé con t_stim & t_type y algunos campos mas.
+#### 15/Dic/2022/10h: Creación a_README.md
+
+### Los datasets.  
+Son tres grupos de datasets.    
+1. El ERPTemplate.mat.  
+2. El grupo de los 8 archivos que conforman el P300-Dataset.  
+3. El grupo de los p300-subject-XX.mat.  
+
+Cada uno de ellos contiene uno o varios .mat.  
   
+1. El ERPTemplate.mat.
+BLA BLA BLA    
+  
+  
+  
+2. El grupo de los 8 archivos que conforman el P300-Dataset.  
+Dataset obtenido de las P300 de ocho sujetos sanos.  
+La estructura se compone de la siguiente manera:  
+  
+• [Una descripción general del dataset](a_analisis_P300S4.ipynb) 
+* [Airflow (DAGs configurados en _users_spotify.py_)](dags/README.md)
+• data.X : Matriz EEG (8 canales)
+• data.y : Etiquetas (1/2)
+• data.y_stim: número de estimulación: 1-6 filas, 7-12 columnas
+• data.trial: Punto muestral donde se inicia cada uno de los 35 ensayos.
+• data.flash: Punto de muestra donde comienza cada parpadeo (id del punto de muestra, duración, estimulación, hit/nohit)  
+
+Dispositivo: g.Tec g.Nautilus g.LadyBird, 250 Hz, filtro de muesca a 50 Hz, paso de banda 0,1-30 Hz
+
+
+Este conjunto de datos se produjo utilizando el estándar 6x6 Donchin y Farewell P300 Speller Matrix, con un ISI de 0,125 ms.  
+Hay 7 palabras con 5 letras cada una. Hay 10 secuencias de intensificación por letra.  
+El procedimiento original usaba 3 palabras para el entrenamiento y trataba de decodificar las 4 palabras restantes para la prueba.    
+  
+
+
+
+
+
+Inspiración
+Intente decodificar la palabra deletreada directamente desde la matriz EEG. Hay 7 palabras de 5 letras cada una. Cada letra está compuesta por 120 estímulos de la matriz P300, 6 filas y 6 columnas, diez veces cada una. El objetivo es decodificar las palabras deletreadas de las últimas 20 letras (4 palabras). Dado que el ISI es muy bajo, es difícil adquirir buenos rendimientos.
+Producido por el CiC, Universidad ITBA, Buenos Aires, Argentina
+
+  
+  
+3. El grupo de los p300-subject-XX.mat.  
+  
+  
+  
+  
+
+
+
+
+
+
+
 Docentes:   
 Pedro Ferrari | pedro@muttdata.ai  
 Juan Martín Pampliega | jpamplie@itba.edu.ar  
