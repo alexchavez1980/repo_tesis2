@@ -14,12 +14,12 @@ Son tres grupos de datasets:
   
 Cada uno de ellos contiene uno o varios archivos .mat. Por practicidad [se encuentran en la carpeta *dataset*](dataset/)  
   
-### 1.El ERPTemplate.mat.
+### 1.El *ERPTemplate.mat*.
 BLA BLA BLA    
   
   
   
-### 2. El grupo de los 8 archivos que conforman el P300-Dataset.  
+### 2. El grupo de los 8 archivos que conforman el *P300-Dataset*.  
 Dataset obtenido de las P300 de ocho sujetos sanos.  
 La estructura se compone de la siguiente manera:  
   
@@ -29,10 +29,10 @@ Acá podés leerlos todos al tiempo o elegir cuál canal analizar y:
 • data.y : Etiquetas (1/2).  
   
 • [*stim* y *type*:](a_analisis_stim&type.ipynb)  
-stim número de estimulación: 1-6 filas, 7-12 columnas.  
-type: BLA BLA BLA.  
-• [*trial*:](a_analisis_trial.ipynb): Punto muestral donde se inicia cada uno de los 35 ensayos.  
-• [*flash*:](a_analisis_flash.ipynb) Punto de muestra donde comienza cada parpadeo (id del punto de muestra, duración, estimulación, hit/nohit)  
+- stim número de estimulación: 1-6 filas, 7-12 columnas.  
+- type: BLA BLA BLA.  
+• [*trial*](a_analisis_trial.ipynb): Punto muestral donde se inicia cada uno de los 35 ensayos.  
+• [*flash*](a_analisis_flash.ipynb): Punto de muestra donde comienza cada parpadeo (id del punto de muestra, duración, estimulación, hit/nohit)  
 
 Dispositivo: g.Tec g.Nautilus g.LadyBird, 250 Hz, filtro de muesca a 50 Hz, paso de banda 0,1-30 Hz
   
@@ -51,7 +51,7 @@ Producido por el CiC, Universidad ITBA, Buenos Aires, Argentina
 
   
   
-### 3. El grupo de los p300-subject-XX.mat.  
+### 3. El grupo de los *p300-subject-XX.mat*.  
   
   
   
