@@ -9,8 +9,7 @@
   
   
 ## Los datasets.  
-Son tres grupos de datasets:  
-    El *ERPTemplate.mat.*, el grupo de los 8 archivos que conforman el *P300-Dataset* y el grupo de los *p300-subject-XX.mat*.  
+Son tres grupos de datasets: el *ERPTemplate.mat.*, el grupo de los 8 archivos que conforman el *P300-Dataset* y el grupo de los *p300-subject-XX.mat*.  
   
 Cada uno de ellos contiene uno o varios archivos .mat. Por practicidad [se encuentran en la carpeta *dataset*](dataset/)  
   
@@ -28,11 +27,12 @@ De todo el archivo lo que se extrae es la estructura *['data'][0][0][0]*.
 Acá podés leerlos todos al tiempo o elegir cuál canal analizar y:  
 • data.y : Etiquetas (1/2).  
   
-• [*stim* y *type*:](a_analisis_stim&type.ipynb)  
+• **stim** y **type** tienen algunas características similares, [La analicé en un mismo archivo](a_analisis_stim&type.ipynb)
 - stim número de estimulación: 1-6 filas, 7-12 columnas.  
 - type: BLA BLA BLA.  
-• [*trial*](a_analisis_trial.ipynb): Punto muestral donde se inicia cada uno de los 35 ensayos.  
-• [*flash*](a_analisis_flash.ipynb): Punto de muestra donde comienza cada parpadeo (id del punto de muestra, duración, estimulación, hit/nohit)  
+  
+• **trial**: Punto muestral donde se inicia cada uno de los 35 ensayos. [Acá podés ver un análisis mas detallado](a_analisis_trial.ipynb)  
+• **flash**: Punto de muestra donde comienza cada parpadeo (id del punto de muestra, duración, estimulación, hit/nohit). [También podés ver mas en detalle ésta onda](a_analisis_flash.ipynb)  
 
 Dispositivo: g.Tec g.Nautilus g.LadyBird, 250 Hz, filtro de muesca a 50 Hz, paso de banda 0,1-30 Hz
   
