@@ -2,16 +2,56 @@
 # TRABAJO FINAL INTEGRADOR
 ## Análisis exploratorio de datos.
 ### Especialización en ciencia de datos ITBA  
+
+Docente:   
+*Rodrigo Ramele | pedro@muttdata.ai* <- Corregir el mail  
   
-##### *(15/Dic/2022/15h)*  
+Estudiante:      
+*Alexander Chavez | achavezmontano@itba.edu.ar*   
+  
+##### *(16/Dic/2022/1130h)*  
+
+  
+  
+
+## Intro.
+La esclerosis lateral amiotrófica o ELA, es una enfermedad degenerativa de las neuronas en el cerebro, el tronco cerebral y la médula espinal que controlan el movimiento de los músculos voluntarios. En la ELA, las células nerviosas (neuronas) motoras se desgastan o mueren y ya no pueden enviar mensajes a los músculos. Con el tiempo, esto lleva a debilitamiento muscular, espasmos e incapacidad para mover los brazos, las piernas y el cuerpo. La afección empeora lentamente. Cuando los músculos en la zona torácica dejan de trabajar, se vuelve difícil o imposible respirar.  
+  
+En pacientes con ELA de etapas intermedias y avanzadas, es necesario el uso de dispositivos tecnológicos para la comunicación, como el P300 Speller.  
+
+De forma paralela, es necesario explicar qué es una señal P300.  
+La palabra evocado es clave: en medicina, refiere a una actividad que puede ser detectada sincrónicamente después de una cantidad específica de tiempo después del inicio de un estímulo. Si accidentalmente acercás un dedo a una vela, no. Si estamos a la espera de que un computador nos dé una señal visual y nos la da, en nuestro cerebro ocurre un evento de éste tipo. Dicho en términos médicos *es una actividad inducida*.  
+  
+La onda P300 es entonces, una señal en el cerebro con amplitud positiva relacionada con eventos.  
+¿Cuáles son ésos eventos que ya están estudiados y verificados?  
+Para éste caso, el más comúnmente provocado bajo el paradigma de "oddball" o "bicho raro":
+El sujeto, en éste caso el paciente, detecta un estímulo "objetivo" ocasional en un tren regular de estímulos estándar.  
+La onda P300 solo ocurre si el sujeto participa activamente en la tarea de detectar los objetivos.  
+Su amplitud varía con la improbabilidad de los objetivos.  
+Su latencia varía con la dificultad de discriminar el estímulo objetivo de los estímulos estándar.  
+Una latencia pico típica cuando un sujeto adulto joven hace una discriminación simple es de 300 ms.  
+En pacientes con capacidad cognitiva disminuida, el P300 es más pequeño y más tardío que en sujetos normales de la misma edad.  
+  
+Se desconoce el origen intracerebral de la onda P300 y su papel en la cognición no se comprende con claridad.  
+El P300 puede tener múltiples generadores intracerebrales, con el hipocampo y varias áreas de asociación de la neocorteza contribuyendo al potencial registrado en el cuero cabelludo.  
+La onda P300 puede representar la transferencia de información a la conciencia, un proceso que involucra muchas regiones diferentes del cerebro.
+
+Fuente -> [The P300 wave of the human event-related potential](https://pubmed.ncbi.nlm.nih.gov/1464675/)  
 
 
+Voy a meter una gráfica general.  
+Y voy a contar que, para poderla estudiar, hay que desarmarla en varias partes.  
+Una es el ERP.  
+Otra son los puntos de estímulo.  
+BLA BLA BLA.  
 
+Luego un párrafo del instrumento, el P300 Speller.  
+De esto hay info que ya tengo con la de la Distrital, algunos videos y texto.  
   
 ## Los datasets.  
 Son tres grupos de datasets: el *ERPTemplate.mat.*, el grupo de los 8 archivos que conforman el *P300-Dataset* y el grupo de los *p300-subject-XX.mat*.  
   
-Cada uno de ellos contiene uno o varios archivos .mat. Por practicidad [se encuentran en la carpeta *dataset*](dataset/)  
+Cada uno de ellos contiene uno o varios archivos .mat. Por practicidad [se encuentran todos en la carpeta *dataset*](dataset/)  
   
 ### 1.El *ERPTemplate.mat*.
 BLA BLA BLA    
@@ -19,46 +59,33 @@ BLA BLA BLA
   
   
 ### 2. El grupo de los 8 archivos que conforman el *P300-Dataset*.  
-Dataset obtenido de las P300 de ocho sujetos sanos.  
-La estructura se compone de la siguiente manera:  
-  
-• [Una descripción mas en detalle del dataset](a_analisis_P300S4.ipynb) junto con *data.X* que es la matriz EEG (8 canales).  
-De todo el archivo lo que se extrae es la estructura *['data'][0][0][0]*.  
-Acá podés leerlos todos al tiempo o elegir cuál canal analizar y:  
-• data.y : Etiquetas (1/2).  
-  
-• **stim** y **type** tienen algunas características similares, [La analicé en un mismo archivo](a_analisis_stim&type.ipynb)
-- stim número de estimulación: 1-6 filas, 7-12 columnas.  
-- type: BLA BLA BLA.  
-  
-• **trial**: Punto muestral donde se inicia cada uno de los 35 ensayos. [Acá podés ver un análisis mas detallado](a_analisis_trial.ipynb)  
-• **flash**: Punto de muestra donde comienza cada parpadeo (id del punto de muestra, duración, estimulación, hit/nohit). [También podés ver mas en detalle ésta onda](a_analisis_flash.ipynb)  
 
-Dispositivo: g.Tec g.Nautilus g.LadyBird, 250 Hz, filtro de muesca a 50 Hz, paso de banda 0,1-30 Hz
-  
+Dataset obtenido de las P300 de ocho **sujetos sanos**.  
+Cabe resaltar que, en pacientes con capacidad cognitiva disminuida,  
+el P300 es más pequeño y más tardío que en sujetos normales de la misma edad.  
+
+Los archivos son P300SXX.mat.  
+
 Este conjunto de datos se produjo utilizando el estándar 6x6 Donchin y Farewell P300 Speller Matrix, con un ISI de 0,125 ms.  
+  
+**(ACÁ HAY QUE PASAR LA CITA DEL PAPER DONDE ESTÁ EL ESTÁNDAR)**  
+
 Hay 7 palabras con 5 letras cada una. Hay 10 secuencias de intensificación por letra.  
-El procedimiento original usaba 3 palabras para el entrenamiento y trataba de decodificar las 4 palabras restantes para la prueba.    
-  
+El procedimiento original usaba 3 palabras para el entrenamiento y trataba de decodificar las 4 palabras restantes para la prueba. 
 
+Intente decodificar la palabra deletreada directamente desde la matriz EEG.  
+Hay 7 palabras de 5 letras cada una.  
+Cada letra está compuesta por 120 estímulos de la matriz P300, 6 filas y 6 columnas, diez veces cada una.  
+El objetivo es decodificar las palabras deletreadas de las últimas 20 letras (4 palabras).  
+Dado que el ISI es muy bajo, es difícil adquirir buenos rendimientos.  
 
+[Descripción mas en detalle del dataset](a_analisis_P300XX.ipynb) 
 
+Fuente -> [Kaggle](https://www.kaggle.com/datasets/rramele/p300samplingdataset?resource=download)
+Éste dataset fue producido por el CiC, Universidad ITBA, Buenos Aires, Argentina.
 
-
-Inspiración
-Intente decodificar la palabra deletreada directamente desde la matriz EEG. Hay 7 palabras de 5 letras cada una. Cada letra está compuesta por 120 estímulos de la matriz P300, 6 filas y 6 columnas, diez veces cada una. El objetivo es decodificar las palabras deletreadas de las últimas 20 letras (4 palabras). Dado que el ISI es muy bajo, es difícil adquirir buenos rendimientos.
-Producido por el CiC, Universidad ITBA, Buenos Aires, Argentina
-
-  
-  
 ### 3. El grupo de los *p300-subject-XX.mat*.  
 
-
-
-
-
-
-  
 
 
 
@@ -66,117 +93,17 @@ Producido por el CiC, Universidad ITBA, Buenos Aires, Argentina
   **===========================================**  
   *De acá en adelante es guia*  
   **===========================================**  
-    
-Docentes:   
-Pedro Ferrari | pedro@muttdata.ai  
-Juan Martín Pampliega | jpamplie@itba.edu.ar  
 
-Estudiantes:      
-Guillermo Lencina | glencina@itba.edu.ar    
-Nicolas Arosteguy | narosteguy@itba.edu.ar    
-Alexander Chavez | achavezmontano@itba.edu.ar   
-  
-  
-## Resumen
-
-Se consultarán dos API's publicas de spotify, una con información de usuarios y sus playlist y otra con la información de las playlist perse.  
-  
-En una primera instancia mediante un script de python (y con usuarios pre-seleccionados manualmente) se obtienen datos de los mismos que contienen las playlist que tengan creadas.  
-  
-La salida del  response es almacenada en un csv (users_file.csv) sin tranformar, y subido a la base de datos SEMINARIO en el schema staging ( donde almacenaremos los csv en tablas sin transformar ).  
-  
-Luego mediante Queries de SQL se ejecutan diferentes transformaciones para lograr extraer y estructurar de la tabla de staging de usuarios tanto los datos de los mismos como sus playlist.  
-  
-Una vez construidas las tablas de usuarios y playlist en el eschema public , con un segundo script de python obtenemos estos id de playlist ya procesados y consultamos la API de playlist, de donde obtenemos un 2do csv (playlist_file.csv) que será almacenado también en el schema de staging, sin procesar.  
-  
-Nuevamente con Queries SQL extraemos y estructuramos la tabla de playlist_artist, en donde vamos a poder obtener que artistas contiene cada playlist.  
-  
-Por último, con SQL, se genera una tabla con información (user_id, artista), vinculando todos los artistas que se hayan encontrado en las playlist con sus respectivos usuarios.  
-  
-Esta ultima información es exportada en un csv (export_colab.csv) para ser el input del colab y empezar con los algoritmos de clusterización.  
-  
-Todas estas tareas estarán osquestadas mediante operadores de airflow ( Postgres Operators y Python Operators)  
-  
-  
-## Objetivo    
-  
-Obtener datos sobre que artistas que escuchan los usuarios en sus playlists publicas con el fin de prototipar la extraccióon, el procesamiento, y los análisis de la información para un futuro sistema de recomendacion basado en las coincidencias de artistas entre los usuarios.
-
-
-## Contenido
-
-* [Infraestructura](#Infraestructura)
+Esto es por si el readme es largo
 * [Instalación y puesta en marcha del ambiente](#Pasos-para-instalar)
-* [Jupyter Notebook](jupyter/notebook/README.md)
-* [Airflow (DAGs configurados en _users_spotify.py_)](dags/README.md)
-  
-    
-## Infraestructura  
-  
-Nuestro trabajo simula una instalación de producción con múltiples containers en Docker.
-_docker-compose.yaml_ contiene las definiciones y configuraciones para los siguientes servicios:
-
-* Interfaz gráfica de Jupyter obtenida de la imagen arjones/pyspark:2.4.5. 
-
-    Una vez los containers estén en Running, podés ingresar desde acá -> [Jupyter](http://localhost:8888)
-
-* Interfaz gráfica de Airflow obtenida de la imagen -apache/airflow:2.4.1. 
-
-    Una vez los containers estén en Running, podés ingresar desde acá -> [Airflow](http://localhost:8080)
-
-* Motor de base de datos postgres obtenida de la imagen postgres:13. 
-
-
-## Pasos para instalar
-
-1. Clonar repo: git clone https://github.com/guillelencina/seminario_final.git
-
-![](./images/git_clone.jpg)
-
-
-2. Abrir _Docker Desktop_ para visualizar desde la interfaz.
-
-![](./images/docker_desktop_ini.jpg)
-
-
-3. Desde VSCode, abrir la carpeta _seminario_final-master_.
-
-![](./images/folder_seminario_final.jpg)
-
-
-4. Ejecutar una consola de Ubuntu.
 
 ![](./images/ubuntu_console.jpg)
 
 
-5. Ingresar a la carpeta: cd seminario_final-master
-
-6. Ejecutar el comando: docker-compose -f docker-compose.yaml up -d
-
-* El docker-compose es un archivo yaml/yml para crear todos los containers necesarios y a la vez.
-* Una vez ejecutado, deben aparecer todos los containers OK como indica la imagen.
-
-![](./images/containers_done.jpg)
-
-* También los podés chequear en la interfaz gráfica de Docker.
-
-![](./images/containers_running.jpg)
-
-
-Sitios de interés: 
-
-    * https://www.youtube.com/c/PeladoNerd  
-    * https://www.youtube.com/c/HolaMundoDev  
-    * https://www.youtube.com/c/NetworkChuck
-    * Postgres + PGAdmin : https://www.youtube.com/watch?v=uKlRp6CqpDg  
-
-
 ## Acerca de
-
-Nicolás Arostegui | [LinkedIn](https://www.linkedin.com/in/nicol%C3%A1s-arosteguy-a564a97a/) 
-
-Guillermo Lencina | [LinkedIn](https://www.linkedin.com/in/guillermolencina/) 
-
+  
 Alexander Chavez | [LinkedIn](https://www.linkedin.com/in/alexchavez1980/) 
 
-ITBA &copy; 2021/2022 
+
+  
+  
