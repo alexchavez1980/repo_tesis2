@@ -24,9 +24,7 @@ De forma paralela, es necesario explicar qué es una señal P300. La palabra *ev
 ![](./a_images/ERPTemplate01.jpg)
 
     
-[La onda P300 es entonces, una señal en el cerebro con amplitud positiva relacionada con eventos.](https://pubmed.ncbi.nlm.nih.gov/1464675/)   
-¿Cuáles son ésos eventos que ya están estudiados y verificados?  
-Para éste caso, el más comúnmente provocado bajo el paradigma de "oddball" o "bicho raro":
+[La onda P300 es entonces, una señal en el cerebro con amplitud positiva relacionada con eventos.](https://pubmed.ncbi.nlm.nih.gov/1464675/). ¿Y cuáles son ésos eventos que ya están estudiados y verificados?: para éste caso, el más comúnmente provocado bajo el paradigma de "oddball" o "bicho raro":  
 El sujeto, en éste caso el paciente, detecta un estímulo "objetivo" ocasional en un tren regular de estímulos estándar.  
 La onda P300 solo ocurre si el sujeto participa activamente en la tarea de detectar los objetivos.  
 Su amplitud varía con la improbabilidad de los objetivos.  
@@ -34,10 +32,8 @@ Su latencia varía con la dificultad de discriminar el estímulo objetivo de los
 Una latencia pico típica cuando un sujeto adulto joven hace una discriminación simple es de 300 ms.  
 En pacientes con capacidad cognitiva disminuida, el P300 es más pequeño y más tardío que en sujetos normales de la misma edad.  
   
-Se desconoce el origen intracerebral de la onda P300 y su papel en la cognición no se comprende con claridad.  
-El P300 puede tener múltiples generadores intracerebrales, con el hipocampo y varias áreas de asociación de la neocorteza contribuyendo al potencial registrado en el cuero cabelludo.  
-La onda P300 puede representar la transferencia de información a la conciencia, un proceso que involucra muchas regiones diferentes del cerebro.
-
+Se desconoce el origen intracerebral de la onda P300 y su papel en la cognición no se comprende con claridad. El P300 puede tener múltiples generadores intracerebrales, con el hipocampo y varias áreas de asociación de la neocorteza contribuyendo al potencial registrado en el cuero cabelludo. La onda P300 puede representar la transferencia de información a la conciencia, un proceso que involucra muchas regiones diferentes del cerebro.  
+  
 Voy a meter una gráfica general.  
 Y voy a contar que, para poderla estudiar, hay que desarmarla en varias partes.  
 Una es el ERP.  
