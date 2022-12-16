@@ -3,11 +3,8 @@
 ## Análisis exploratorio de datos.
 ### Especialización en ciencia de datos ITBA  
 
-Docente:   
-*Rodrigo Ramele | pedro@muttdata.ai* <- Corregir el mail  
-  
-Estudiante:      
-*Alexander Chavez | achavezmontano@itba.edu.ar*   
+Docente: *Rodrigo Ramele | rramele@itba.edu.ar*  
+Estudiante: *Alexander Chavez | achavezmontano@itba.edu.ar*   
   
 ##### *(16/Dic/2022/1130h)*  
 
@@ -24,7 +21,8 @@ De forma paralela, es necesario explicar qué es una señal P300. La palabra *ev
 ![](./a_images/ERPTemplate01.jpg)
 
     
-[La onda P300 es entonces, una señal en el cerebro con amplitud positiva relacionada con eventos.](https://pubmed.ncbi.nlm.nih.gov/1464675/). ¿Y cuáles son ésos eventos que ya están estudiados y verificados?: para éste caso, el más comúnmente provocado bajo el paradigma de "oddball" o "bicho raro":  
+[La onda P300](https://pubmed.ncbi.nlm.nih.gov/1464675/) es entonces, una señal en el cerebro con amplitud positiva relacionada con eventos. ¿Y cuáles son ésos eventos que ya están estudiados y verificados?: para éste caso, el más comúnmente provocado bajo el paradigma de "oddball" o "bicho raro":  
+  
 El sujeto, en éste caso el paciente, detecta un estímulo "objetivo" ocasional en un tren regular de estímulos estándar.  
 La onda P300 solo ocurre si el sujeto participa activamente en la tarea de detectar los objetivos.  
 Su amplitud varía con la improbabilidad de los objetivos.  
@@ -80,11 +78,21 @@ Fuente -> [Kaggle](https://www.kaggle.com/datasets/rramele/p300samplingdataset?r
 Éste dataset fue producido por el CiC, Universidad ITBA, Buenos Aires, Argentina.
 
 ### 3. El grupo de los *p300-subject-XX.mat*.  
-
-
-
-
-
+  
+  
+  
+  
+  
+  
+  
+Alexander Chavez | [LinkedIn](https://www.linkedin.com/in/alexchavez1980/) 
+  
+  
+  
+  
+  
+  
+  
   **===========================================**  
   *De acá en adelante es guia*  
   **===========================================**  
@@ -95,9 +103,6 @@ Esto es por si el readme es largo
 ![](./images/ubuntu_console.jpg)
 
 
-## Acerca de
-  
-Alexander Chavez | [LinkedIn](https://www.linkedin.com/in/alexchavez1980/) 
 
 
   
