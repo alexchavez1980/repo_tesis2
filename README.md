@@ -20,9 +20,11 @@ La esclerosis lateral amiotrófica o ELA, es una enfermedad degenerativa de las 
 En pacientes con ELA de etapas intermedias y avanzadas, es necesario el uso de dispositivos tecnológicos para la comunicación, como el P300 Speller.  
 
 De forma paralela, es necesario explicar qué es una señal P300.  
-La palabra evocado es clave: en medicina, refiere a una actividad que puede ser detectada sincrónicamente después de una cantidad específica de tiempo después del inicio de un estímulo. Si accidentalmente acercás un dedo a una vela, no. Si estamos a la espera de que un computador nos dé una señal visual y nos la da, en nuestro cerebro ocurre un evento de éste tipo. Dicho en términos médicos *es una actividad inducida*.  
+La palabra evocado es clave: en medicina, refiere a una actividad que puede ser detectada sincrónicamente después de una cantidad específica de tiempo después del inicio de un estímulo. Si accidentalmente acercás un dedo a una vela, no. Si estamos a la espera de que un computador nos dé una señal visual y nos la da, en nuestro cerebro ocurre un evento de éste tipo. En términos médicos *es una actividad inducida*.  
   
-La onda P300 es entonces, una señal en el cerebro con amplitud positiva relacionada con eventos.  
+![](./a_images/05 - ERPTemplate01.jpg)  
+  
+[La onda P300 es entonces, una señal en el cerebro con amplitud positiva relacionada con eventos.](https://pubmed.ncbi.nlm.nih.gov/1464675/)   
 ¿Cuáles son ésos eventos que ya están estudiados y verificados?  
 Para éste caso, el más comúnmente provocado bajo el paradigma de "oddball" o "bicho raro":
 El sujeto, en éste caso el paciente, detecta un estímulo "objetivo" ocasional en un tren regular de estímulos estándar.  
@@ -35,9 +37,6 @@ En pacientes con capacidad cognitiva disminuida, el P300 es más pequeño y más
 Se desconoce el origen intracerebral de la onda P300 y su papel en la cognición no se comprende con claridad.  
 El P300 puede tener múltiples generadores intracerebrales, con el hipocampo y varias áreas de asociación de la neocorteza contribuyendo al potencial registrado en el cuero cabelludo.  
 La onda P300 puede representar la transferencia de información a la conciencia, un proceso que involucra muchas regiones diferentes del cerebro.
-
-Fuente -> [The P300 wave of the human event-related potential](https://pubmed.ncbi.nlm.nih.gov/1464675/)  
-
 
 Voy a meter una gráfica general.  
 Y voy a contar que, para poderla estudiar, hay que desarmarla en varias partes.  
