@@ -22,7 +22,8 @@ En pacientes con ELA de etapas intermedias y avanzadas, es necesario el uso de d
 De forma paralela, es necesario explicar qué es una señal P300.  
 La palabra evocado es clave: en medicina, refiere a una actividad que puede ser detectada sincrónicamente después de una cantidad específica de tiempo después del inicio de un estímulo. Si accidentalmente acercás un dedo a una vela, no. Si estamos a la espera de que un computador nos dé una señal visual y nos la da, en nuestro cerebro ocurre un evento de éste tipo. En términos médicos *es una actividad inducida*.  
   
-![](./a_images/05 - ERPTemplate01.jpg)  
+![](./a_images/05 - ERPTemplate01.jpg)
+![](./images/Subject1.png) 
   
 [La onda P300 es entonces, una señal en el cerebro con amplitud positiva relacionada con eventos.](https://pubmed.ncbi.nlm.nih.gov/1464675/)   
 ¿Cuáles son ésos eventos que ya están estudiados y verificados?  
