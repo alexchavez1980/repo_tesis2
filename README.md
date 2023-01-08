@@ -8,8 +8,8 @@ Estudiante: *Alexander Chavez | achavezmontano@itba.edu.ar*
   
 ##### *(16/Dic/2022/1130h)*  
 
-  
-  
+*A continuación un análisis exploratorio de los datos que se usarán en el trabajo final integrador.* 
+*El objetivo es dar al lector un "mapa" amigable donde pueda recorrer la información, entre descriptiva y código, para así tener una idea mas aproximada del trabajo que se está realizando*    
 
 ## Intro.
 La esclerosis lateral amiotrófica o ELA, es una enfermedad degenerativa de las neuronas en el cerebro, el tronco cerebral y la médula espinal que controlan el movimiento de los músculos voluntarios. En la ELA, las células nerviosas (neuronas) motoras se desgastan o mueren y ya no pueden enviar mensajes a los músculos. Con el tiempo, esto lleva a debilitamiento muscular, espasmos e incapacidad para mover los brazos, las piernas y el cuerpo. La afección empeora lentamente. Cuando los músculos en la zona torácica dejan de trabajar, se vuelve difícil o imposible respirar.  
