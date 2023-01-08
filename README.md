@@ -8,7 +8,7 @@ Estudiante: *Alexander Chavez | achavezmontano@itba.edu.ar*
   
 ##### *(16/Dic/2022/1130h)*  
 
-*A continuación un análisis exploratorio de los datos que se usarán en el trabajo final integrador.* 
+*A continuación, el análisis exploratorio de los datos que se usarán en el trabajo final integrador.* 
 *El objetivo es dar al lector un "mapa" amigable donde pueda recorrer la información, entre descriptiva y código, para así tener una idea mas aproximada del trabajo que se está realizando*    
 
 ## Intro.
