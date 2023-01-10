@@ -6,7 +6,7 @@
 Docente: *Rodrigo Ramele | rramele@itba.edu.ar*  
 Estudiante: *Alexander Chavez | achavezmontano@itba.edu.ar*   
   
-##### *(16/Dic/2022/1130h)*  
+##### *(10/Ene/2023/1130h)*  
 
 *A continuación, el análisis exploratorio de los datos que se usarán en el trabajo final integrador.* 
 *El objetivo es dar al lector un "mapa" amigable donde pueda recorrer la información, entre descriptiva y código, para así tener una idea mas aproximada del trabajo que se está realizando*    
@@ -47,8 +47,8 @@ Son tres grupos de datasets: el *ERPTemplate.mat.*, el grupo de los 8 archivos q
 Cada uno de ellos contiene uno o varios archivos .mat. Por practicidad [se encuentran todos en la carpeta *dataset*](dataset/)  
   
 ### 1.El *ERPTemplate.mat*.
-BLA BLA BLA    
-  
+EL *ERPTemplate* contiene la señal que se utilizará para "drogar" el flujo de EEG basal.  
+[Acá podés ir al análisis mas detallado de ésta señal.](a_analisis_ERPTemplate.ipynb)  
   
   
 ### 2. El grupo de los 8 archivos que conforman el *P300-Dataset*.  
