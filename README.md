@@ -6,7 +6,7 @@
 Docente: *Rodrigo Ramele | rramele@itba.edu.ar*  
 Estudiante: *Alexander Chavez | achavezmontano@itba.edu.ar*   
   
-##### *(10/Ene/2023/21:10h)*  
+##### *(11/Ene/2023/10h)*  
 
 *A continuación, el análisis exploratorio de los datos que se usarán en el trabajo final integrador.* 
 *El objetivo es dar al lector un "mapa" amigable donde pueda recorrer la información, entre descriptiva y código, para así tener una idea mas aproximada del trabajo que se está realizando*    
@@ -78,7 +78,7 @@ Fuente -> [Kaggle](https://www.kaggle.com/datasets/rramele/p300samplingdataset?r
 Éste dataset fue producido por el CiC, Universidad ITBA, Buenos Aires, Argentina.
 
 ### 3. El grupo de los *p300-subject-XX.mat*.  
-  
+Revisar en los archivos viejos y recrear el análisis.  
   
   
   
