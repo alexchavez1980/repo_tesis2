@@ -6,7 +6,7 @@
 Docente: *Rodrigo Ramele | rramele@itba.edu.ar*  
 Estudiante: *Alexander Chavez | achavezmontano@itba.edu.ar*   
   
-##### *(10/Ene/2023/1130h)*  
+##### *(10/Ene/2023/21:10h)*  
 
 *A continuación, el análisis exploratorio de los datos que se usarán en el trabajo final integrador.* 
 *El objetivo es dar al lector un "mapa" amigable donde pueda recorrer la información, entre descriptiva y código, para así tener una idea mas aproximada del trabajo que se está realizando*    
